@@ -162,10 +162,7 @@ a:focus, a:hover {
 			background-color: #f9f9f9;
 				.circle{
 				    border-radius: 5px;
-				}
-
-			.wrapper-about{
-			}	
+				}	
 			.txt-hello{
 				    margin-top: 50px;
 			}
@@ -334,6 +331,9 @@ a:focus, a:hover {
 	.main .wrapper .skills .line {
 	    border-left: 1px solid rgba(255, 255, 255, 0);
 	}
+	.main .wrapper .aboutme .center{
+		text-align: center;
+	}
 }
 @media (max-width: 767px) {
 	.main .wrapper .header-color .paddHeader .right-place{
@@ -354,7 +354,7 @@ a:focus, a:hover {
 	    float: none;
 	}
 	.main .wrapper .welcome img {
-    	width: 35%;
+    	width: 100%;
 	}
 	.main .wrapper .contact .conainer-icons img {
 	    width: 9%;
@@ -363,6 +363,6 @@ a:focus, a:hover {
 @media (max-width: 300px) {
 
 	.main .wrapper .welcome img{
-	    width: 55%;
+	    width: 90%;
 	}
 }
