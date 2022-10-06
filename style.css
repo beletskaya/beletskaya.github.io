@@ -238,6 +238,7 @@ a:focus, a:hover {
 .main .wrapper .work img {
   width: 100%;
   border: 5px solid rgba(121, 121, 121, 0.4);
+  transition: border 0.5s;
 }
 
 .main .wrapper .work a {
@@ -306,6 +307,7 @@ a:focus, a:hover {
 
 .workimg {
   position: relative;
+  margin-bottom: 15px;
 }
 
 .linkwork {
